@@ -1,0 +1,15 @@
+/colour_detector:
+  ros__parameters:
+    image_topic: /head_front_camera/rgb/image_raw
+    output_topic: /colour_detection
+    lower_limits:
+    - 0
+    - 82
+    - 0
+    show_trackbars: true
+    upper_limits:
+    - 69
+    - 255
+    - 59
+    use_sim_time: false
+

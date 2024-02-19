@@ -1,0 +1,4 @@
+source;share/ros360_moveit/local_setup.bash
+source;share/ros360_moveit/local_setup.dsv
+source;share/ros360_moveit/local_setup.sh
+source;share/ros360_moveit/local_setup.zsh

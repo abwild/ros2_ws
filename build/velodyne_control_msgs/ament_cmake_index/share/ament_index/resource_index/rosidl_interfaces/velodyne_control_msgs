@@ -1,0 +1,6 @@
+msg/VelodyneState.idl
+msg/VelodyneState.msg
+srv/VelodyneControl.idl
+srv/VelodyneControl.srv
+srv/VelodyneControl_Request.msg
+srv/VelodyneControl_Response.msg

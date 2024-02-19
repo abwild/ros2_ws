@@ -1,0 +1,82 @@
+[0.244s] Invoking command in '/home/alw82/ros2_ws/build/track_envs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/track_envs -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/track_envs
+[0.317s] -- The C compiler identification is GNU 11.4.0
+[0.648s] -- The CXX compiler identification is GNU 11.4.0
+[0.918s] -- Detecting C compiler ABI info
+[1.009s] -- Detecting C compiler ABI info - done
+[1.012s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.013s] -- Detecting C compile features
+[1.013s] -- Detecting C compile features - done
+[1.014s] -- Detecting CXX compiler ABI info
+[1.108s] -- Detecting CXX compiler ABI info - done
+[1.112s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.112s] -- Detecting CXX compile features
+[1.112s] -- Detecting CXX compile features - done
+[1.114s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.198s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.252s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.303s] -- Added test 'lint_cmake' to check CMake code style
+[1.305s] -- Added test 'xmllint' to check XML markup files
+[1.306s] -- Configuring done
+[1.307s] -- Generating done
+[1.308s] -- Build files have been written to: /home/alw82/ros2_ws/build/track_envs
+[1.311s] Invoked command in '/home/alw82/ros2_ws/build/track_envs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/track_envs -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/track_envs
+[1.312s] Invoking command in '/home/alw82/ros2_ws/build/track_envs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/track_envs -- -j24 -l24
+[1.336s] Invoked command in '/home/alw82/ros2_ws/build/track_envs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/track_envs -- -j24 -l24
+[1.351s] Invoking command in '/home/alw82/ros2_ws/build/track_envs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/track_envs
+[1.353s] -- Install configuration: ""
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//launch
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//launch/track2.launch:Zone.Identifier
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//launch/track1.launch:Zone.Identifier
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//launch/track2.launch
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//launch/track1.launch
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RedCube
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RedCube/model.config
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RedCube/model.sdf
+[1.354s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RedCube/model.config:Zone.Identifier
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RedCube/model.sdf:Zone.Identifier
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenCube
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenCube/model.config
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenCube/model.sdf
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenCube/model.config:Zone.Identifier
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenCube/model.sdf:Zone.Identifier
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/BlueCube
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/BlueCube/model.config
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/BlueCube/model.sdf
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/BlueCube/model.config:Zone.Identifier
+[1.355s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/BlueCube/model.sdf:Zone.Identifier
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenBin
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenBin/model.config
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenBin/model.sdf
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenBin/model.config:Zone.Identifier
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/GreenBin/model.sdf:Zone.Identifier
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RaceTrackv2
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RaceTrackv2/model.config
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RaceTrackv2/model.sdf
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RaceTrackv2/model.config:Zone.Identifier
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//models/RaceTrackv2/model.sdf:Zone.Identifier
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds/track2.world
+[1.356s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds/scenario23.world
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds/coloured_blocks.world
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds/track1.world
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds/track2.world:Zone.Identifier
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds/track1.world:Zone.Identifier
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds/coloured_blocks.world:Zone.Identifier
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs//worlds/scenario23.world:Zone.Identifier
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/ament_index/resource_index/package_run_dependencies/track_envs
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/ament_index/resource_index/parent_prefix_path/track_envs
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/environment/ament_prefix_path.sh
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/environment/ament_prefix_path.dsv
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/environment/path.sh
+[1.357s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/environment/path.dsv
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/local_setup.bash
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/local_setup.sh
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/local_setup.zsh
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/local_setup.dsv
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/package.dsv
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/ament_index/resource_index/packages/track_envs
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/cmake/track_envsConfig.cmake
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/cmake/track_envsConfig-version.cmake
+[1.358s] -- Installing: /home/alw82/ros2_ws/install/track_envs/share/track_envs/package.xml
+[1.359s] Invoked command in '/home/alw82/ros2_ws/build/track_envs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/track_envs

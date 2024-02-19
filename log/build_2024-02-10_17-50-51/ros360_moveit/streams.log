@@ -1,0 +1,26 @@
+[0.220s] Invoking command in '/home/alw82/ros2_ws/build/ros360_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/ros360_moveit -- -j24 -l24
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target tiago_moveit_interface[0m
+[0.251s] [100%] Built target tiago_moveit_interface
+[0.286s] Invoked command in '/home/alw82/ros2_ws/build/ros360_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/ros360_moveit -- -j24 -l24
+[0.360s] Invoking command in '/home/alw82/ros2_ws/build/ros360_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/ros360_moveit
+[0.365s] -- Install configuration: ""
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/lib/ros360_moveit/tiago_moveit_interface
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit//launch
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit//launch/ros360_moveit.launch.py
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit//launch/ros360_moveit.launch.py:Zone.Identifier
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ament_index/resource_index/package_run_dependencies/ros360_moveit
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ament_index/resource_index/parent_prefix_path/ros360_moveit
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/environment/ament_prefix_path.sh
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/environment/ament_prefix_path.dsv
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/environment/path.sh
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/environment/path.dsv
+[0.365s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/local_setup.bash
+[0.366s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/local_setup.sh
+[0.366s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/local_setup.zsh
+[0.366s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/local_setup.dsv
+[0.366s] -- Installing: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.dsv
+[0.366s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ament_index/resource_index/packages/ros360_moveit
+[0.366s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/cmake/ros360_moveitConfig.cmake
+[0.366s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/cmake/ros360_moveitConfig-version.cmake
+[0.366s] -- Up-to-date: /home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.xml
+[0.432s] Invoked command in '/home/alw82/ros2_ws/build/ros360_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/ros360_moveit

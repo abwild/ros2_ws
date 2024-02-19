@@ -1,0 +1,27 @@
+<launch>
+
+  <!--arg name="model" default="$(find-pkg-share turtlebot3_gazebo)/models/turtlebot3_waffle_pi/model.sdf" /-->
+  <arg name="model" default="src/traethlin_description/urdf/traethlin.urdf.xacro"/>
+
+  <arg name="start_gazebo" default="false" />
+  <arg name="start_rviz" default="true" />
+
+  <!-- Start Gazebo -->
+  <group if="$(var start_gazebo)">
+    <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py">
+      <arg name="world" value="src/alw82_major_project/worlds/project_world_2"/>
+      <arg name="paused" value="false"/>
+      <arg name="use_sim_time" value="true"/>
+      <arg name="gui" value="true"/>
+      <arg name="recording" value="false"/>
+      <arg name="debug" value="false"/>
+      <arg name="verbose" value="true"/>
+    </include>
+  </group>
+
+    <!-- Spawn robot in Gazebo -->
+    <node name="spawn_robot_urdf" pkg="gazebo_ros" exec="spawn_entity.py"
+      args="-file $(var model) -x -1.8 -y -7.0 -z 0.0 -entity my_robot" output="screen" />
+  
+
+</launch>

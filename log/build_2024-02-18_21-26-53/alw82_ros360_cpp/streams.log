@@ -1,0 +1,51 @@
+[0.181s] Invoking command in '/home/alw82/ros2_ws/build/alw82_ros360_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/alw82_ros360_cpp -- -j24 -l24
+[0.332s] [  7%] Built target helloWorld
+[0.332s] [ 15%] Built target examplePublisher
+[0.333s] [ 23%] Built target randomTurtle
+[0.333s] [ 30%] Built target colourClient
+[0.333s] [ 38%] Built target tiagoColourFinder
+[0.333s] [ 46%] Built target exampleSubscriber
+[0.333s] [ 53%] Built target torsoCtrl
+[0.333s] [ 61%] Built target headCtrl
+[0.333s] [ 69%] Built target tiagoColourFinderWithHead
+[0.333s] [ 76%] Built target alw82Assignment
+[0.334s] [ 84%] Built target pmb2_track
+[0.334s] [ 92%] Built target velodyneSubscriber
+[0.334s] [100%] Built target depthSubscriber
+[0.340s] Invoked command in '/home/alw82/ros2_ws/build/alw82_ros360_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/alw82_ros360_cpp -- -j24 -l24
+[0.420s] Invoking command in '/home/alw82/ros2_ws/build/alw82_ros360_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/alw82_ros360_cpp
+[0.460s] -- Install configuration: ""
+[0.460s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/helloWorld
+[0.460s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/examplePublisher
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/exampleSubscriber
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/randomTurtle
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/velodyneSubscriber
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/pmb2_track
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/tiagoColourFinder
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/colourClient
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/depthSubscriber
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/headCtrl
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/torsoCtrl
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/tiagoColourFinderWithHead
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/alw82_ros360_cpp/alw82Assignment
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp//launch
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp//launch/pmb2_track.launch.xml
+[0.461s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp//launch/tiago_assignment.launch.xml
+[0.462s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp//launch/colour_detector.launch.xml
+[0.462s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp//launch/tiago_blocks.launch.xml
+[0.462s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/ament_index/resource_index/package_run_dependencies/alw82_ros360_cpp
+[0.462s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/ament_index/resource_index/parent_prefix_path/alw82_ros360_cpp
+[0.462s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/environment/ament_prefix_path.sh
+[0.462s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/environment/ament_prefix_path.dsv
+[0.462s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/environment/path.sh
+[0.462s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/environment/path.dsv
+[0.463s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/local_setup.bash
+[0.463s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/local_setup.sh
+[0.463s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/local_setup.zsh
+[0.464s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/local_setup.dsv
+[0.464s] -- Installing: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.dsv
+[0.464s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/ament_index/resource_index/packages/alw82_ros360_cpp
+[0.464s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/cmake/alw82_ros360_cppConfig.cmake
+[0.464s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/cmake/alw82_ros360_cppConfig-version.cmake
+[0.464s] -- Up-to-date: /home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.xml
+[0.495s] Invoked command in '/home/alw82/ros2_ws/build/alw82_ros360_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/alw82_ros360_cpp

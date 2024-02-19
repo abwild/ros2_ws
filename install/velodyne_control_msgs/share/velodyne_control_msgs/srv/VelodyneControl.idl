@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from velodyne_control_msgs/srv/VelodyneControl.srv
+// generated code does not contain a copyright notice
+
+
+module velodyne_control_msgs {
+  module srv {
+    struct VelodyneControl_Request {
+      @verbatim (language="comment", text=
+        "Desired velocity of rotation for velodyne.")
+      double velocity;
+    };
+    struct VelodyneControl_Response {
+      @verbatim (language="comment", text=
+        "RESULT: SUCCESS message.")
+      boolean success;
+    };
+  };
+};

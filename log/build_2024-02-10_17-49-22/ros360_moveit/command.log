@@ -1,0 +1,6 @@
+Invoking command in '/home/alw82/ros2_ws/build/ros360_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/ros360_moveit -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/ros360_moveit
+Invoked command in '/home/alw82/ros2_ws/build/ros360_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/ros360_moveit -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/ros360_moveit
+Invoking command in '/home/alw82/ros2_ws/build/ros360_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/ros360_moveit -- -j24 -l24
+Invoked command in '/home/alw82/ros2_ws/build/ros360_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/ros360_moveit -- -j24 -l24
+Invoking command in '/home/alw82/ros2_ws/build/ros360_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/ros360_moveit
+Invoked command in '/home/alw82/ros2_ws/build/ros360_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/ros360_moveit

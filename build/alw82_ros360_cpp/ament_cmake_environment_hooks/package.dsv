@@ -1,0 +1,4 @@
+source;share/alw82_ros360_cpp/local_setup.bash
+source;share/alw82_ros360_cpp/local_setup.dsv
+source;share/alw82_ros360_cpp/local_setup.sh
+source;share/alw82_ros360_cpp/local_setup.zsh

@@ -1,0 +1,4 @@
+source;share/track_envs/local_setup.bash
+source;share/track_envs/local_setup.dsv
+source;share/track_envs/local_setup.sh
+source;share/track_envs/local_setup.zsh

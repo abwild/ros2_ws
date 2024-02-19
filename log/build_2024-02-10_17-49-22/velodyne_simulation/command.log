@@ -1,0 +1,2 @@
+Invoking command in '/home/alw82/ros2_ws/build/velodyne_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/velodyne/velodyne_simulation -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/velodyne_simulation
+Invoked command in '/home/alw82/ros2_ws/build/velodyne_simulation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/velodyne/velodyne_simulation -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/velodyne_simulation

@@ -1,0 +1,68 @@
+[0.028s] Invoking command in '/home/alw82/ros2_ws/build/alw82_major_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/alw82_major_project -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/alw82_major_project
+[0.034s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.169s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.170s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.213s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.213s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.058s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.134s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.155s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.200s] -- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)
+[2.604s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.608s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[2.611s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.773s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.919s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.924s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.212s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.215s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.222s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.244s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.749s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.829s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.287s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.580s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.712s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.933s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.972s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.972s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/alw82/ros2_ws/src/alw82_major_project/include>
+[4.972s] -- Configured cppcheck exclude dirs and/or files: 
+[4.972s] -- Added test 'lint_cmake' to check CMake code style
+[4.972s] -- Added test 'uncrustify' to check C / C++ code style
+[4.972s] -- Configured uncrustify additional arguments: 
+[4.972s] -- Added test 'xmllint' to check XML markup files
+[4.973s] -- Configuring done
+[4.978s] -- Generating done
+[4.979s] -- Build files have been written to: /home/alw82/ros2_ws/build/alw82_major_project
+[4.987s] Invoked command in '/home/alw82/ros2_ws/build/alw82_major_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/alw82_major_project -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/alw82_major_project
+[4.988s] Invoking command in '/home/alw82/ros2_ws/build/alw82_major_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/alw82_major_project -- -j24 -l24
+[5.009s] [ 50%] [32mBuilding CXX object CMakeFiles/helloWorld.dir/src/helloWorld.cpp.o[0m
+[5.021s] [100%] [32m[1mLinking CXX executable helloWorld[0m
+[5.078s] [100%] Built target helloWorld
+[5.082s] Invoked command in '/home/alw82/ros2_ws/build/alw82_major_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/alw82_major_project -- -j24 -l24
+[5.095s] Invoking command in '/home/alw82/ros2_ws/build/alw82_major_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/alw82_major_project
+[5.098s] -- Install configuration: ""
+[5.098s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/lib/alw82_major_project/helloWorld
+[5.098s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project//launch
+[5.098s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project//launch/tiago_assignment.launch.xml
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project//launch/colour_detector.launch.xml
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/ament_index/resource_index/package_run_dependencies/alw82_major_project
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/ament_index/resource_index/parent_prefix_path/alw82_major_project
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/environment/ament_prefix_path.sh
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/environment/ament_prefix_path.dsv
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/environment/path.sh
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/environment/path.dsv
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/local_setup.bash
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/local_setup.sh
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/local_setup.zsh
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/local_setup.dsv
+[5.099s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.dsv
+[5.100s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/ament_index/resource_index/packages/alw82_major_project
+[5.100s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/cmake/alw82_major_projectConfig.cmake
+[5.100s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/cmake/alw82_major_projectConfig-version.cmake
+[5.100s] -- Installing: /home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.xml
+[5.100s] Invoked command in '/home/alw82/ros2_ws/build/alw82_major_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/alw82_major_project

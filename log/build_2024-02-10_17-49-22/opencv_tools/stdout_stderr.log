@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/opencv_tools/opencv_tools.egg-info
+writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alw82/ros2_ws/build/opencv_tools/build
+creating /home/alw82/ros2_ws/build/opencv_tools/build/lib
+creating /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/colourDetector.py -> /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/basic_image_subscriber.py -> /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/basic_image_publisher.py -> /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/__init__.py -> /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools/colourDetector.py -> /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_subscriber.py -> /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_publisher.py -> /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/alw82/ros2_ws/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+byte-compiling /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/colourDetector.py to colourDetector.cpython-310.pyc
+byte-compiling /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_subscriber.py to basic_image_subscriber.cpython-310.pyc
+byte-compiling /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_publisher.py to basic_image_publisher.cpython-310.pyc
+byte-compiling /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/alw82/ros2_ws/install/opencv_tools/share/ament_index
+creating /home/alw82/ros2_ws/install/opencv_tools/share/ament_index/resource_index
+creating /home/alw82/ros2_ws/install/opencv_tools/share/ament_index/resource_index/packages
+copying resource/opencv_tools -> /home/alw82/ros2_ws/install/opencv_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools
+creating /home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/launch
+copying launch/colour_detector.launch.xml:Zone.Identifier -> /home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/launch
+copying launch/colour_detector.launch.xml -> /home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/launch
+running install_egg_info
+Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info
+running install_scripts
+Installing colour_detector script to /home/alw82/ros2_ws/install/opencv_tools/lib/opencv_tools
+Installing img_publisher script to /home/alw82/ros2_ws/install/opencv_tools/lib/opencv_tools
+Installing img_subscriber script to /home/alw82/ros2_ws/install/opencv_tools/lib/opencv_tools
+writing list of installed files to '/home/alw82/ros2_ws/build/opencv_tools/install.log'

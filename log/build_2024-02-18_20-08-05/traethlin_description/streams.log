@@ -1,0 +1,87 @@
+[0.224s] Invoking command in '/home/alw82/ros2_ws/build/traethlin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/traethlin_description -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/traethlin_description
+[0.344s] -- The C compiler identification is GNU 11.4.0
+[0.793s] -- The CXX compiler identification is GNU 11.4.0
+[0.978s] -- Detecting C compiler ABI info
+[1.038s] -- Detecting C compiler ABI info - done
+[1.042s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.042s] -- Detecting C compile features
+[1.043s] -- Detecting C compile features - done
+[1.045s] -- Detecting CXX compiler ABI info
+[1.118s] -- Detecting CXX compiler ABI info - done
+[1.121s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.121s] -- Detecting CXX compile features
+[1.122s] -- Detecting CXX compile features - done
+[1.124s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.209s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.271s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.309s] -- Configuring done
+[1.310s] -- Generating done
+[1.311s] -- Build files have been written to: /home/alw82/ros2_ws/build/traethlin_description
+[1.313s] Invoked command in '/home/alw82/ros2_ws/build/traethlin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/traethlin_description -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/traethlin_description
+[1.314s] Invoking command in '/home/alw82/ros2_ws/build/traethlin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/traethlin_description -- -j24 -l24
+[1.329s] Invoked command in '/home/alw82/ros2_ws/build/traethlin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/traethlin_description -- -j24 -l24
+[1.337s] Invoking command in '/home/alw82/ros2_ws/build/traethlin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/traethlin_description
+[1.340s] -- Install configuration: ""
+[1.340s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf
+[1.340s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin.gazebo.xacro
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin.urdf.xacro:Zone.Identifier
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin.urdf.xacro
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin_constants.xacro
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin_wheels.xacro
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/gazebo.material:Zone.Identifier
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin.gazebo.xacro:Zone.Identifier
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin_shock_absorbers.xacro
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin_constants.xacro:Zone.Identifier
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin_shock_absorbers.xacro:Zone.Identifier
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/traethlin_wheels.xacro:Zone.Identifier
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/urdf/gazebo.material
+[1.341s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/rviz
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/rviz/traethlin.rviz:Zone.Identifier
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/rviz/traethlin.rviz
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/launch
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/launch/gazebo.launch.py:Zone.Identifier
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/launch/description.launch.py:Zone.Identifier
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/launch/description.launch.py
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/launch/gazebo.launch.py
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/worlds
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/worlds/traethlin.world
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/worlds/traethlin.world:Zone.Identifier
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/roverRearWheel.stl:Zone.Identifier
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/roverFrontWheel.stl:Zone.Identifier
+[1.342s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/roverFrontWheel.stl
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/chassis.stl:Zone.Identifier
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/rover.stl
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/camera_assembly.stl:Zone.Identifier
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/Wheel_Texture.jpg:Zone.Identifier
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/rover.stl:Zone.Identifier
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/Vehicle_Texture.dae:Zone.Identifier
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/roverRearWheelTextured.dae:Zone.Identifier
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/old_rover.stl:Zone.Identifier
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/roverRearWheel.stl
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/camera_assembly.stl
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/old_rover.stl
+[1.343s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/wheel.stl
+[1.344s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/Wheel_Texture.jpg
+[1.345s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/roverRearWheelTextured.dae
+[1.346s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/Vehicle_Texture.dae
+[1.346s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/roverFrontWheelTextured.dae
+[1.346s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/chassis.stl
+[1.346s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/roverFrontWheelTextured.dae:Zone.Identifier
+[1.346s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/meshes/wheel.stl:Zone.Identifier
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/ament_index/resource_index/package_run_dependencies/traethlin_description
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/ament_index/resource_index/parent_prefix_path/traethlin_description
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/environment/ament_prefix_path.sh
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/environment/ament_prefix_path.dsv
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/environment/path.sh
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/environment/path.dsv
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/local_setup.bash
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/local_setup.sh
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/local_setup.zsh
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/local_setup.dsv
+[1.347s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.dsv
+[1.348s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/ament_index/resource_index/packages/traethlin_description
+[1.348s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/cmake/traethlin_descriptionConfig.cmake
+[1.348s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/cmake/traethlin_descriptionConfig-version.cmake
+[1.348s] -- Installing: /home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.xml
+[1.349s] Invoked command in '/home/alw82/ros2_ws/build/traethlin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/traethlin_description

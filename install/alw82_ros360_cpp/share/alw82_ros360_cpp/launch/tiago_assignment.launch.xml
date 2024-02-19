@@ -1,0 +1,18 @@
+<launch>
+
+  <!-- Tell Gazebo where to find our custom object models -->
+	<set_env name="GAZEBO_MODEL_PATH" value="$(find-pkg-share track_envs)/models:$(env GAZEBO_MODEL_PATH)" />
+	<set_env name="GAZEBO_RESOURCE_PATH" value="$(find-pkg-share track_envs):$(env GAZEBO_RESOURCE_PATH)" />
+
+  <arg name="track" default="scenario23"/>
+
+  <!-- Include the launch file for spawning the pmb2 robot
+  		in the track environment -->
+  <include file="$(find-pkg-share tiago_gazebo)/launch/tiago_gazebo.launch.py">
+  	<arg name="world_name" value="$(find-pkg-share track_envs)/worlds/$(var track)"/>  <!-- pal worlds launch file adds .world extension -->
+  </include>
+  <include file="$(find-pkg-share alw82_ros360_cpp)/launch/colour_detector.launch.xml" />
+  <include file="$(find-pkg-share tiago_moveit_config)/launch/move_group.launch.py"/>
+  <include file="$(find-pkg-share ros360_moveit)/launch/ros360_moveit.launch.py"/>
+
+</launch>

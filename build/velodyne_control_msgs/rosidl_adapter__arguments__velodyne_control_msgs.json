@@ -1,0 +1,7 @@
+{
+  "package_name": "velodyne_control_msgs",
+  "non_idl_tuples": [
+    "/home/alw82/ros2_ws/src/velodyne/velodyne_control_msgs:msg/VelodyneState.msg",
+    "/home/alw82/ros2_ws/src/velodyne/velodyne_control_msgs:srv/VelodyneControl.srv"
+  ]
+}

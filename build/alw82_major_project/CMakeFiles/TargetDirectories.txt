@@ -1,0 +1,10 @@
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/uninstall.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/alw82_major_project_uninstall.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/helloWorld.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/test.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/edit_cache.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/rebuild_cache.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/list_install_components.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/install.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/install/local.dir
+/home/alw82/ros2_ws/build/alw82_major_project/CMakeFiles/install/strip.dir

@@ -1,0 +1,606 @@
+[0.722s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.722s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f430ac507c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f430bdf7d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f430bdf7d30>>)
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.763s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alw82/ros2_ws'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extension 'ignore_ament_install'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extensions ['ros']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_major_project) by extension 'ros'
+[0.777s] DEBUG:colcon.colcon_core.package_identification:Package 'src/alw82_major_project' with type 'ros.ament_cmake' and name 'alw82_major_project'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extension 'ignore_ament_install'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extensions ['colcon_pkg']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extension 'colcon_meta'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extensions ['ros']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/alw82_ros360_cpp) by extension 'ros'
+[0.779s] DEBUG:colcon.colcon_core.package_identification:Package 'src/alw82_ros360_cpp' with type 'ros.ament_cmake' and name 'alw82_ros360_cpp'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_ackermann_drive_4wd) by extension 'ros'
+[0.779s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_ackermann_drive_4wd' with type 'ros.ament_cmake' and name 'gazebo_ros_ackermann_drive_4wd'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ros'
+[0.780s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_tools' with type 'ros.ament_python' and name 'opencv_tools'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extension 'ignore_ament_install'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extensions ['colcon_pkg']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros360_moveit) by extension 'ros'
+[0.781s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros360_moveit' with type 'ros.ament_cmake' and name 'ros360_moveit'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/track_envs) by extension 'ros'
+[0.782s] DEBUG:colcon.colcon_core.package_identification:Package 'src/track_envs' with type 'ros.ament_cmake' and name 'track_envs'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/traethlin_description) by extension 'ros'
+[0.783s] DEBUG:colcon.colcon_core.package_identification:Package 'src/traethlin_description' with type 'ros.ament_cmake' and name 'traethlin_description'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ros'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['cmake', 'python']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'cmake'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['python_setup_py']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python_setup_py'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[0.784s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.845s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/alw82/ros2_ws/install
+[0.851s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 501 installed packages in /opt/ros/humble
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.908s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlebot3_navigation2' is in: /opt/ros/humble, /home/alw82/ros2_ws/install/turtlebot3_navigation2
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlebot3_navigation2
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'cmake_target' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'cmake_clean_cache' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'cmake_clean_first' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'cmake_force_configure' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'ament_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'catkin_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'alw82_major_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.914s] DEBUG:colcon.colcon_core.verb:Building package 'alw82_major_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alw82/ros2_ws/build/alw82_major_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alw82/ros2_ws/install/alw82_major_project', 'merge_install': False, 'path': '/home/alw82/ros2_ws/src/alw82_major_project', 'symlink_install': False, 'test_result_base': None}
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'cmake_args' from command line to 'None'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'cmake_target' from command line to 'None'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'alw82_ros360_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.920s] DEBUG:colcon.colcon_core.verb:Building package 'alw82_ros360_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alw82/ros2_ws/build/alw82_ros360_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alw82/ros2_ws/install/alw82_ros360_cpp', 'merge_install': False, 'path': '/home/alw82/ros2_ws/src/alw82_ros360_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'cmake_target' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'cmake_clean_cache' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'cmake_clean_first' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'cmake_force_configure' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'ament_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'catkin_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_ackermann_drive_4wd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.926s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_ackermann_drive_4wd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd', 'merge_install': False, 'path': '/home/alw82/ros2_ws/src/gazebo_ros_ackermann_drive_4wd', 'symlink_install': False, 'test_result_base': None}
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_args' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.931s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alw82/ros2_ws/build/opencv_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alw82/ros2_ws/install/opencv_tools', 'merge_install': False, 'path': '/home/alw82/ros2_ws/src/opencv_tools', 'symlink_install': False, 'test_result_base': None}
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'cmake_target' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'ros360_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'ros360_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alw82/ros2_ws/build/ros360_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alw82/ros2_ws/install/ros360_moveit', 'merge_install': False, 'path': '/home/alw82/ros2_ws/src/ros360_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'cmake_target' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'cmake_clean_first' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'cmake_force_configure' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'ament_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'track_envs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.942s] DEBUG:colcon.colcon_core.verb:Building package 'track_envs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alw82/ros2_ws/build/track_envs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alw82/ros2_ws/install/track_envs', 'merge_install': False, 'path': '/home/alw82/ros2_ws/src/track_envs', 'symlink_install': False, 'test_result_base': None}
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'cmake_args' from command line to 'None'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'cmake_target' from command line to 'None'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.948s] Level 5:colcon.colcon_core.verb:set package 'traethlin_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.948s] DEBUG:colcon.colcon_core.verb:Building package 'traethlin_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alw82/ros2_ws/build/traethlin_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alw82/ros2_ws/install/traethlin_description', 'merge_install': False, 'path': '/home/alw82/ros2_ws/src/traethlin_description', 'symlink_install': False, 'test_result_base': None}
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.953s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alw82/ros2_ws/build/turtlebot3_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alw82/ros2_ws/install/turtlebot3_navigation2', 'merge_install': False, 'path': '/home/alw82/ros2_ws/src/turtlebot3/turtlebot3_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.958s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.964s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alw82/ros2_ws/src/alw82_major_project' with build type 'ament_cmake'
+[0.964s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alw82/ros2_ws/src/alw82_major_project'
+[0.974s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.993s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alw82/ros2_ws/src/alw82_ros360_cpp' with build type 'ament_cmake'
+[0.993s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alw82/ros2_ws/src/alw82_ros360_cpp'
+[0.999s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.999s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.017s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alw82/ros2_ws/src/gazebo_ros_ackermann_drive_4wd' with build type 'ament_cmake'
+[1.017s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alw82/ros2_ws/src/gazebo_ros_ackermann_drive_4wd'
+[1.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.041s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alw82/ros2_ws/src/opencv_tools' with build type 'ament_python'
+[1.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'ament_prefix_path')
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.sh'
+[1.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.074s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alw82/ros2_ws/src/ros360_moveit' with build type 'ament_cmake'
+[1.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alw82/ros2_ws/src/ros360_moveit'
+[1.080s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.098s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alw82/ros2_ws/src/track_envs' with build type 'ament_cmake'
+[1.099s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alw82/ros2_ws/src/track_envs'
+[1.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alw82/ros2_ws/src/traethlin_description' with build type 'ament_cmake'
+[1.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alw82/ros2_ws/src/traethlin_description'
+[1.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.146s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alw82/ros2_ws/src/turtlebot3/turtlebot3_navigation2' with build type 'ament_cmake'
+[1.146s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alw82/ros2_ws/src/turtlebot3/turtlebot3_navigation2'
+[1.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/alw82_major_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/alw82_major_project -- -j24 -l24
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/alw82_ros360_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/alw82_ros360_cpp -- -j24 -l24
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/gazebo_ros_ackermann_drive_4wd -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd
+[1.300s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alw82/ros2_ws/src/opencv_tools'
+[1.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/ros360_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/ros360_moveit -- -j24 -l24
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/track_envs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/track_envs -- -j24 -l24
+[1.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/traethlin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/traethlin_description -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/traethlin_description
+[1.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/turtlebot3_navigation2 -- -j24 -l24
+[1.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/alw82_major_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/alw82_major_project -- -j24 -l24
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/alw82_ros360_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/alw82_ros360_cpp -- -j24 -l24
+[1.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/track_envs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/track_envs -- -j24 -l24
+[1.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/alw82_major_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/alw82_major_project
+[1.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/turtlebot3_navigation2 -- -j24 -l24
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/track_envs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/track_envs
+[1.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alw82_major_project)
+[1.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/alw82_major_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/alw82_major_project
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project' for CMake module files
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project' for CMake config files
+[1.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('alw82_major_project', 'cmake_prefix_path')
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/hook/cmake_prefix_path.ps1'
+[1.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/hook/cmake_prefix_path.dsv'
+[1.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/hook/cmake_prefix_path.sh'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/lib'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/bin'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/lib/pkgconfig/alw82_major_project.pc'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/lib/python3.10/site-packages'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/bin'
+[1.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.dsv'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.sh'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.bash'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.zsh'
+[1.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/alw82_major_project/share/colcon-core/packages/alw82_major_project)
+[1.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/alw82_ros360_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/alw82_ros360_cpp
+[1.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/turtlebot3_navigation2
+[1.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(track_envs)
+[1.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/track_envs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/track_envs
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs' for CMake module files
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs' for CMake config files
+[1.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('track_envs', 'cmake_prefix_path')
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/track_envs/share/track_envs/hook/cmake_prefix_path.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/track_envs/share/track_envs/hook/cmake_prefix_path.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/track_envs/share/track_envs/hook/cmake_prefix_path.sh'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs/bin'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs/lib/pkgconfig/track_envs.pc'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs/lib/python3.10/site-packages'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs/bin'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.sh'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.bash'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.zsh'
+[1.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/track_envs/share/colcon-core/packages/track_envs)
+[1.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/ros360_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/ros360_moveit -- -j24 -l24
+[1.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[1.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/turtlebot3_navigation2
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2' for CMake module files
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2' for CMake config files
+[1.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2/bin'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2/lib/python3.10/site-packages'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2/bin'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[1.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[1.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alw82_ros360_cpp)
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/alw82_ros360_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/alw82_ros360_cpp
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp' for CMake module files
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp' for CMake config files
+[1.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('alw82_ros360_cpp', 'cmake_prefix_path')
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/hook/cmake_prefix_path.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/hook/cmake_prefix_path.dsv'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/hook/cmake_prefix_path.sh'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/lib'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/bin'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/pkgconfig/alw82_ros360_cpp.pc'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/python3.10/site-packages'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/bin'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.sh'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.bash'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.zsh'
+[1.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/colcon-core/packages/alw82_ros360_cpp)
+[1.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alw82_major_project)
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project' for CMake module files
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project' for CMake config files
+[1.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('alw82_major_project', 'cmake_prefix_path')
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/hook/cmake_prefix_path.ps1'
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/hook/cmake_prefix_path.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/hook/cmake_prefix_path.sh'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/lib'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/bin'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/lib/pkgconfig/alw82_major_project.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/lib/python3.10/site-packages'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_major_project/bin'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.ps1'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.dsv'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.sh'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.bash'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_major_project/share/alw82_major_project/package.zsh'
+[1.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/alw82_major_project/share/colcon-core/packages/alw82_major_project)
+[1.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(track_envs)
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs' for CMake module files
+[1.558s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs' for CMake config files
+[1.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('track_envs', 'cmake_prefix_path')
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/track_envs/share/track_envs/hook/cmake_prefix_path.ps1'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/track_envs/share/track_envs/hook/cmake_prefix_path.dsv'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/track_envs/share/track_envs/hook/cmake_prefix_path.sh'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs/bin'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs/lib/pkgconfig/track_envs.pc'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs/lib/python3.10/site-packages'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/track_envs/bin'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.bash'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/track_envs/share/track_envs/package.zsh'
+[1.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/track_envs/share/colcon-core/packages/track_envs)
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/ros360_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/ros360_moveit
+[1.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2' for CMake module files
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2' for CMake config files
+[1.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2/bin'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2/lib/python3.10/site-packages'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/turtlebot3_navigation2/bin'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[1.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[1.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alw82_ros360_cpp)
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp' for CMake module files
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp' for CMake config files
+[1.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('alw82_ros360_cpp', 'cmake_prefix_path')
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/hook/cmake_prefix_path.ps1'
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/hook/cmake_prefix_path.dsv'
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/hook/cmake_prefix_path.sh'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/lib'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/bin'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/pkgconfig/alw82_ros360_cpp.pc'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/lib/python3.10/site-packages'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/alw82_ros360_cpp/bin'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.ps1'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.dsv'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.sh'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.bash'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/alw82_ros360_cpp/package.zsh'
+[1.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/alw82_ros360_cpp/share/colcon-core/packages/alw82_ros360_cpp)
+[1.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros360_moveit)
+[1.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/ros360_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/ros360_moveit
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit' for CMake module files
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit' for CMake config files
+[1.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros360_moveit', 'cmake_prefix_path')
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/hook/cmake_prefix_path.ps1'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/hook/cmake_prefix_path.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/hook/cmake_prefix_path.sh'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/lib'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/bin'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/lib/pkgconfig/ros360_moveit.pc'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/lib/python3.10/site-packages'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/bin'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.ps1'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.dsv'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.sh'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.bash'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.zsh'
+[1.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/ros360_moveit/share/colcon-core/packages/ros360_moveit)
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/src/opencv_tools': PYTHONPATH=/home/alw82/ros2_ws/build/opencv_tools/prefix_override:/home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/alw82/ros2_ws/build/opencv_tools/build install --record /home/alw82/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed
+[1.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros360_moveit)
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit' for CMake module files
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit' for CMake config files
+[1.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros360_moveit', 'cmake_prefix_path')
+[1.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/hook/cmake_prefix_path.ps1'
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/hook/cmake_prefix_path.dsv'
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/hook/cmake_prefix_path.sh'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/lib'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/bin'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/lib/pkgconfig/ros360_moveit.pc'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/lib/python3.10/site-packages'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/ros360_moveit/bin'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.sh'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.bash'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.zsh'
+[1.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/ros360_moveit/share/colcon-core/packages/ros360_moveit)
+[1.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/alw82/ros2_ws/build/opencv_tools/prefix_override:/home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/alw82/ros2_ws/build/opencv_tools/build install --record /home/alw82/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/opencv_tools' for CMake module files
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/opencv_tools' for CMake config files
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/opencv_tools/lib'
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/opencv_tools/bin'
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/opencv_tools/lib/pkgconfig/opencv_tools.pc'
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/opencv_tools/lib/python3.10/site-packages'
+[1.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'pythonpath')
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.ps1'
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.dsv'
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.sh'
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/opencv_tools/bin'
+[1.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tools)
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/package.ps1'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/package.dsv'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/package.sh'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/package.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/opencv_tools/share/opencv_tools/package.zsh'
+[1.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/opencv_tools/share/colcon-core/packages/opencv_tools)
+[2.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/traethlin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/traethlin_description -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/traethlin_description
+[2.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/traethlin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/traethlin_description -- -j24 -l24
+[2.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/traethlin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/traethlin_description -- -j24 -l24
+[2.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/traethlin_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/traethlin_description
+[2.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(traethlin_description)
+[2.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/traethlin_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/traethlin_description
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description' for CMake module files
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description' for CMake config files
+[2.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('traethlin_description', 'cmake_prefix_path')
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/hook/cmake_prefix_path.ps1'
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/hook/cmake_prefix_path.dsv'
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/hook/cmake_prefix_path.sh'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description/bin'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description/lib/pkgconfig/traethlin_description.pc'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description/lib/python3.10/site-packages'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description/bin'
+[2.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.ps1'
+[2.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.dsv'
+[2.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.sh'
+[2.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.bash'
+[2.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.zsh'
+[2.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/traethlin_description/share/colcon-core/packages/traethlin_description)
+[2.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(traethlin_description)
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description' for CMake module files
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description' for CMake config files
+[2.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('traethlin_description', 'cmake_prefix_path')
+[2.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/hook/cmake_prefix_path.ps1'
+[2.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/hook/cmake_prefix_path.dsv'
+[2.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/hook/cmake_prefix_path.sh'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description/bin'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description/lib/pkgconfig/traethlin_description.pc'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description/lib/python3.10/site-packages'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/traethlin_description/bin'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.ps1'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.dsv'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.sh'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.bash'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/traethlin_description/share/traethlin_description/package.zsh'
+[2.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/traethlin_description/share/colcon-core/packages/traethlin_description)
+[18.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake /home/alw82/ros2_ws/src/gazebo_ros_ackermann_drive_4wd -DCMAKE_INSTALL_PREFIX=/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd
+[18.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd -- -j24 -l24
+[28.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --build /home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd -- -j24 -l24
+[28.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd
+[28.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_ackermann_drive_4wd)
+[28.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alw82/ros2_ws/install/opencv_tools:/opt/ros/humble /usr/bin/cmake --install /home/alw82/ros2_ws/build/gazebo_ros_ackermann_drive_4wd
+[28.180s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd' for CMake module files
+[28.180s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd' for CMake config files
+[28.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_ackermann_drive_4wd', 'cmake_prefix_path')
+[28.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/cmake_prefix_path.ps1'
+[28.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/cmake_prefix_path.dsv'
+[28.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/cmake_prefix_path.sh'
+[28.188s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/lib'
+[28.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_ackermann_drive_4wd', 'ld_library_path_lib')
+[28.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/ld_library_path_lib.ps1'
+[28.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/ld_library_path_lib.dsv'
+[28.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/ld_library_path_lib.sh'
+[28.194s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/bin'
+[28.194s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/lib/pkgconfig/gazebo_ros_ackermann_drive_4wd.pc'
+[28.194s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/lib/python3.10/site-packages'
+[28.194s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/bin'
+[28.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.ps1'
+[28.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.dsv'
+[28.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.sh'
+[28.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.bash'
+[28.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.zsh'
+[28.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/colcon-core/packages/gazebo_ros_ackermann_drive_4wd)
+[28.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_ackermann_drive_4wd)
+[28.222s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd' for CMake module files
+[28.222s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd' for CMake config files
+[28.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_ackermann_drive_4wd', 'cmake_prefix_path')
+[28.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/cmake_prefix_path.ps1'
+[28.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/cmake_prefix_path.dsv'
+[28.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/cmake_prefix_path.sh'
+[28.229s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/lib'
+[28.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_ackermann_drive_4wd', 'ld_library_path_lib')
+[28.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/ld_library_path_lib.ps1'
+[28.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/ld_library_path_lib.dsv'
+[28.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/hook/ld_library_path_lib.sh'
+[28.235s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/bin'
+[28.235s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/lib/pkgconfig/gazebo_ros_ackermann_drive_4wd.pc'
+[28.235s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/lib/python3.10/site-packages'
+[28.235s] Level 1:colcon.colcon_core.environment:checking '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/bin'
+[28.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.ps1'
+[28.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.dsv'
+[28.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.sh'
+[28.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.bash'
+[28.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/gazebo_ros_ackermann_drive_4wd/package.zsh'
+[28.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alw82/ros2_ws/install/gazebo_ros_ackermann_drive_4wd/share/colcon-core/packages/gazebo_ros_ackermann_drive_4wd)
+[28.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.242s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[28.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.271s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.271s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[28.271s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alw82/ros2_ws/install/local_setup.ps1'
+[28.278s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alw82/ros2_ws/install/_local_setup_util_ps1.py'
+[28.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alw82/ros2_ws/install/setup.ps1'
+[28.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alw82/ros2_ws/install/local_setup.sh'
+[28.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alw82/ros2_ws/install/_local_setup_util_sh.py'
+[28.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alw82/ros2_ws/install/setup.sh'
+[28.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alw82/ros2_ws/install/local_setup.bash'
+[28.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alw82/ros2_ws/install/setup.bash'
+[28.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alw82/ros2_ws/install/local_setup.zsh'
+[28.300s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alw82/ros2_ws/install/setup.zsh'

@@ -1,0 +1,17 @@
+/home/alw82/ros2_ws/install/ros360_moveit/lib/ros360_moveit/tiago_moveit_interface
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit//launch/ros360_moveit.launch.py
+/home/alw82/ros2_ws/install/ros360_moveit/share/ament_index/resource_index/package_run_dependencies/ros360_moveit
+/home/alw82/ros2_ws/install/ros360_moveit/share/ament_index/resource_index/parent_prefix_path/ros360_moveit
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/environment/ament_prefix_path.sh
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/environment/ament_prefix_path.dsv
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/environment/path.sh
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/environment/path.dsv
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/local_setup.bash
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/local_setup.sh
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/local_setup.zsh
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/local_setup.dsv
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.dsv
+/home/alw82/ros2_ws/install/ros360_moveit/share/ament_index/resource_index/packages/ros360_moveit
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/cmake/ros360_moveitConfig.cmake
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/cmake/ros360_moveitConfig-version.cmake
+/home/alw82/ros2_ws/install/ros360_moveit/share/ros360_moveit/package.xml
