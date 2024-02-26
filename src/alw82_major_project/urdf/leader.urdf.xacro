@@ -103,6 +103,29 @@ material.
     <material>Gazebo/Grey</material>
   </gazebo>
 
+  <!-- Coloured Ball -->
+  <link name="target_link">
+    <visual>
+      <origin xyz="-0.3 0 0.2" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.075"/>
+      </geometry>
+      <material name="red">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <gazebo reference="target_link">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  
+  <joint name="base_link_to_target" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="target_link"/>
+  </joint>
+
   <!-- Chassis -->
   <link name="chassis_link">
     <visual>
@@ -345,11 +368,11 @@ material.
                     axle_eff_limit="${rear_axle_eff_limit}"/>
 
   <xacro:arg name="use_nominal_extrinsics" default="true"/>
-  <xacro:include filename="$(find realsense2_description)/urdf/_d455.urdf.xacro" />
+  <!--xacro:include filename="$(find realsense2_description)/urdf/_d455.urdf.xacro" /-->
 
-  <xacro:sensor_d455 parent="camera_base" use_nominal_extrinsics="$(arg use_nominal_extrinsics)">
+  <!--xacro:sensor_d455 parent="camera_base" use_nominal_extrinsics="$(arg use_nominal_extrinsics)">
     <origin xyz="0 0 0" rpy="0 0 0"/>
-  </xacro:sensor_d455>
+  </xacro:sensor_d455-->
 
 
   <gazebo>

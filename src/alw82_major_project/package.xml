@@ -3,7 +3,7 @@
 <package format="3">
   <name>alw82_major_project</name>
   <version>0.0.0</version>
-  <description>This package is part of the taught module CS36010 Robotic Applications at Aberystwyth University.</description>
+  <description>This package is part of the module CS394 Major Project at Aberystwyth University.</description>
   <maintainer email="alw82@aber.ac.uk">alw82</maintainer>
   <license>Apache License 2.0</license>
 

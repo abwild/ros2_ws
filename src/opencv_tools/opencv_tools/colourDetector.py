@@ -80,7 +80,7 @@ class ColourDetector (Node):
 
     def initParams(self):
         limits_description = ParameterDescriptor(description='Limits used by OpenCV colour filter, listed BGR')
-        self.declare_parameter('image_topic', 'image_raw')
+        self.declare_parameter('image_topic', '/image_raw')
         self.declare_parameter('output_topic', '/colour_detection')
         self.declare_parameter('show_trackbars', True)
         self.declare_parameter('lower_limits', [0, 0, 0], limits_description)

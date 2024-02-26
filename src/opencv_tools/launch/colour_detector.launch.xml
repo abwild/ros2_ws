@@ -1,6 +1,6 @@
 <launch>
     <node pkg="opencv_tools" exec="colour_detector" name="colour_detector" output="screen">
-        <param name="image_topic" value="/image_raw"/>
+        <param name="image_topic" value="/traethlin/camera/image_raw"/>
         <param name="output_topic" value="/colour_detection"/>
         <param name="lower_limits" value="[0,0,0]"/>
         <param name="upper_limits" value="[255,255,255]"/>

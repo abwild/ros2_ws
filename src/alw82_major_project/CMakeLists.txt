@@ -28,6 +28,7 @@ find_package(moveit_ros_planning_interface REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(helloWorld src/helloWorld.cpp)
+add_executable(robot_follower src/robot_follower.cpp)
 
 target_include_directories(helloWorld PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -38,10 +39,11 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIBRARY_DIRS})
 add_definitions(${OpenCV_DEFINITIONS})
 
-# ament_target_dependencies(alw82Assignment rclcpp geometry_msgs tf2 tf2_ros control_msgs trajectory_msgs rclcpp_action rclcpp_components sensor_msgs)
+ament_target_dependencies(robot_follower rclcpp geometry_msgs tf2 tf2_ros control_msgs trajectory_msgs rclcpp_action rclcpp_components sensor_msgs)
 
 install(TARGETS 
 helloWorld
+robot_follower
 DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY
